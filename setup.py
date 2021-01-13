@@ -4,11 +4,8 @@ with open('README.rst') as readme_file:
     readme = readme_file.read()
 
 requirements = [
-                'numpy==1.14.6',
-                'scipy==0.17.0',
                 'scikit-learn==0.18.2',
                 'oletools==0.50',
-                'joblib',
                 'pandas==0.17.1',
                 ]
 
